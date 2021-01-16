@@ -1,6 +1,27 @@
 {"type":"FeatureCollection","features":[
-  {"type":"Feature","properties":{"id":"3550","name":"George Bush Intercontinental Houston Airport","city":"Houston","country":"United States","faa":"IAH","icao":"KIAH","alt":"97","tz-offset":"-6","dst":"A","tz":"America/Chicago"},"geometry":{"type":"Point","coordinates":[-95.34140014648438,29.984399795532227]}}
-  ,
+  {
+      "type":"Feature",
+      "properties":{
+        "id":"3550",
+        "name":"George Bush Intercontinental Houston Airport",
+        "city":"Houston",
+        "country":"United States",
+        "faa":"IAH",
+        "icao":"KIAH",
+        "alt":"97",
+        "tz-offset":"-6",
+        "dst":"A",
+        "tz":"America/Chicago"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -95.34140014648438,
+          29.984399795532227
+        ]
+      }
+  },
+
   {"type":"Feature","properties":{"id":"3566","name":"William P Hobby Airport","city":"Houston","country":"United States","faa":"HOU","icao":"KHOU","alt":"46","tz-offset":"-6","dst":"A","tz":"America/Chicago"},"geometry":{"type":"Point","coordinates":[-95.27890015,29.64539909]}}
   ,
   {"type":"Feature","properties":{"id":"3484","name":"Los Angeles International Airport","city":"Los Angeles","country":"United States","faa":"LAX","icao":"KLAX","alt":"125","tz-offset":"-8","dst":"A","tz":"America/Los_Angeles"},"geometry":{"type":"Point","coordinates":[-118.4079971,33.94250107]}}
